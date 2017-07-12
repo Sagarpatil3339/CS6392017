@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MenuProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="helpactivity">HelpActivity</string>
+    <string name="hello_prasad_patil">Hello Prasad Patil</string>
+    <string name="button">SMS</string>
+    <string name="button1">PHONE</string>
+    <string name="button2">WEB</string>
+    <string name="button3">MAP</string>
+    <string name="button4">SHARE</string>
+    <string name="button5">NEW ACTIVITY</string>
+</resources>

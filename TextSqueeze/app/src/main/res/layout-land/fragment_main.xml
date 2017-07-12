@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:id="@+id/ClrBtn"
+        android:onClick="ClearBtn"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ClrBtn"
+        android:layout_toLeftOf="@id/SqzBtn"
+        android:id="@+id/CamBtn"
+        android:src="@mipmap/btn"
+        android:layout_margin="20dp"
+        android:onClick="CameraBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Squeeze"
+        android:layout_alignParentRight="true"
+        android:id="@+id/SqzBtn"
+        android:layout_margin="20dp"
+        android:onClick="SqueezeBtn"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:id="@+id/Edtxt"
+        android:hint="Enter Text Here..."
+        android:gravity="center_horizontal"
+        android:layout_below="@id/CamBtn"/>
+
+</RelativeLayout>

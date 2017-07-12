@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_of_my_birth_place">Image of my birth-place</string>
+</resources>
